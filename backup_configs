@@ -1,0 +1,18 @@
+sudo tar -czp -f configs.tar.gz \
+/etc/rc.d/rc.inet1 \
+/etc/rc.d/rc.inet1.conf \
+/etc/modprobe.d/snd-hda-intel.conf \
+/etc/acpi/acpi_handler.sh \
+/etc/wpa_supplicant.conf \
+/home/james/.bash_aliases \
+/home/james/.bash_profile \
+/home/james/.bashrc \
+/home/james/.vimrc \
+/home/james/vim/ \
+/home/james/.xinitrc \
+/home/james/.xprofile \
+/home/james/.xsessionrc \
+/home/james/.config/ \
+/home/james/.mozilla/plugins/libflashplayer.so \
+/usr/bin/xflock4
+
