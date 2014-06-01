@@ -11,7 +11,7 @@ sudo tar -czp -f /home/james/Dropbox/backups/configs.tar.gz \
 /home/james/.bash_profile \
 /home/james/.bashrc \
 /home/james/.vimrc \
-/home/james/vim/ \
+/home/james/.vim/ \
 /home/james/.xinitrc \
 /home/james/.xprofile \
 /home/james/.xsessionrc \
