@@ -1,6 +1,7 @@
 #!/bin/bash
 #Script to back up various configuration (and a plugin) files to a tarball
-sudo tar -czp -f configs.tar.gz \
+mv /home/james/Dropbox/backups/configs.tar.gz /home/james/Dropbox/backups/old_configs.tar.gz
+sudo tar -czp -f /home/james/Dropbox/backups/configs.tar.gz \
 /etc/rc.d/rc.inet1 \
 /etc/rc.d/rc.inet1.conf \
 /etc/modprobe.d/snd-hda-intel.conf \
