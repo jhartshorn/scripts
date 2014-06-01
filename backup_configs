@@ -1,3 +1,5 @@
+#!/bin/bash
+#Script to back up various configuration (and a plugin) files to a tarball
 sudo tar -czp -f configs.tar.gz \
 /etc/rc.d/rc.inet1 \
 /etc/rc.d/rc.inet1.conf \
