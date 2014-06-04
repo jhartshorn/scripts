@@ -12,11 +12,18 @@ sudo tar -czp -f /home/james/Dropbox/backups/configs.tar.gz \
 /etc/modprobe.d/snd-hda-intel.conf \
 /etc/acpi/acpi_handler.sh \
 /etc/wpa_supplicant.conf \
+/etc/udev/rules.d/51-android.rules \
+/etc/wpa_supplicant.conf.norfolk \
+/etc/wpa_supplicant.conf.weston \
+/etc/slackpkg/mirrors \
 /home/james/.bash_aliases \
 /home/james/.bash_profile \
 /home/james/.bashrc \
 /home/james/.vimrc \
 /home/james/.vim/ \
+/home/james/.vim/plugin/ \
+/home/james/.vim/doc/ \
+/home/james/.xchat2/servlist_.conf \
 /home/james/.xinitrc \
 /home/james/.xprofile \
 /home/james/.xsessionrc \
@@ -26,4 +33,3 @@ sudo tar -czp -f /home/james/Dropbox/backups/configs.tar.gz \
 
 #Clean up
 rm partitions
-
