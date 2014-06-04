@@ -33,3 +33,7 @@ sudo tar -czp -f /home/james/Dropbox/backups/configs.tar.gz \
 
 #Clean up
 rm partitions
+
+#Ensure dropboxd is started
+su james -c "python /usr/local/bin/dropbox.py start"
+
