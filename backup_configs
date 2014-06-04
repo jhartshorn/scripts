@@ -1,7 +1,11 @@
 #!/bin/bash
 #Script to back up various configuration (and a plugin) files to a tarball
 mv /home/james/Dropbox/backups/configs.tar.gz /home/james/Dropbox/backups/old_configs.tar.gz
+
+df -h > partitions
+
 sudo tar -czp -f /home/james/Dropbox/backups/configs.tar.gz \
+./partitions \
 /etc/rc.d/rc.inet1 \
 /etc/rc.d/rc.inet1.conf \
 /etc/modprobe.d/snd-hda-intel.conf \
@@ -18,4 +22,6 @@ sudo tar -czp -f /home/james/Dropbox/backups/configs.tar.gz \
 /home/james/.config/ \
 /home/james/.mozilla/plugins/libflashplayer.so \
 /usr/bin/xflock4
+
+rm partitions
 
